@@ -1,0 +1,108 @@
+@media screen and (max-width:576px){
+
+    body{
+        background-color: black;
+        font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+
+    }
+
+    figure{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img{
+        width: 10rem;
+        height: 10rem;
+    
+    }
+
+    li{
+        color: white;
+        list-style-type: style none;
+        font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+
+
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: auto;
+        font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+        padding: 2%;
+
+        
+
+    }
+
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: gray;
+        border-radius: 8px;
+        font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+        border-style: solid;
+        border-color: white;
+        padding: 1rem;
+
+    }
+
+    .home{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: white;
+        
+    }
+
+    .home-write{
+        color: white;
+        font-size: smaller;
+        padding: 2%;
+        font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+
+
+        
+    }
+
+}
+
+@media (min-width: 576px) {
+
+    body{
+        background-color: black;
+    }
+
+    figure{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img{
+        width: 30rem;
+        height: 30rem;
+    }
+
+    li{
+        color: white;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: auto;
+        
+
+    }
+
+}
