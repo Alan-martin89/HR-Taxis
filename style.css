@@ -13,8 +13,8 @@
     }
 
     img{
-        width: 10rem;
-        height: 10rem;
+        width: 15rem;
+        height: 15rem;
     
     }
 
@@ -41,7 +41,7 @@
 
     div{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
         background-color: gray;
