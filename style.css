@@ -1,0 +1,142 @@
+@media screen and (max-width:576px){
+
+    body{
+        background-color: black;
+        font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+
+    }
+
+    figure{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img{
+        width: 10rem;
+        height: 10rem;
+        object-fit: cover;
+    
+    }
+
+    li{
+        color: white;
+        list-style-type: style none;
+        font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+        text-decoration: none;
+
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: auto;
+        font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+        padding: 2%;
+
+        
+
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: gray;
+        border-radius: 8px;
+        font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+        border-style: solid;
+        border-color: white;
+        padding: 1%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .home{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: white;
+        
+    }
+
+    .home-write{
+        color: white;
+        font-size: 15px;
+        padding: 1px;
+        text-align: center;
+        
+        font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+
+
+        
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .gall{
+        border-style: solid;
+        border-radius: 8px;
+        border-color: white;
+        margin: 2px;
+    }
+    footer{
+        background-color: gray;
+        color: white;
+        text-align: center;
+        border-style: solid;
+        border-color: white;
+        border-radius: 8px;
+    }
+    .history{
+        color: white;
+        text-align: center;
+        background-color: gray;
+        border-style: solid;
+        border-radius: 8px;
+        line-height: 30px;
+    }
+
+    
+
+}
+
+@media (min-width: 576px) {
+
+    body{
+        background-color: black;
+    }
+
+    figure{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img{
+        width: 30rem;
+        height: 30rem;
+    }
+
+    li{
+        color: white;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: auto;
+        
+
+    }
+
+}
