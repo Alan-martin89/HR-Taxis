@@ -112,6 +112,7 @@
 
     body{
         background-color: black;
+        font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
     }
 
     figure{
@@ -123,20 +124,90 @@
     img{
         width: 30rem;
         height: 30rem;
+        object-fit: cover;
     }
 
     li{
         color: white;
+        list-style-type: none;
+        font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+        text-decoration: none;
     }
 
     ul{
-        list-style: none;
+        list-style-type: none;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         margin: auto;
+        font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
         
 
+    }
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: gray;
+        border-radius: 8px;
+        font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+        border-style: solid;
+        border-color: white;
+        padding: 1%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .home{
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: white;
+        
+    }
+
+    .home-write{
+        color: white;
+        font-size: 20px;
+        padding: 1px;
+        text-align: center;
+        
+        font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+
+
+        
+    }
+
+    .gall{
+        border-style: solid;
+        border-radius: 8px;
+        border-color: white;
+        margin: 2px;
+    }
+    footer{
+        background-color: gray;
+        color: white;
+        text-align: center;
+        border-style: solid;
+        border-color: white;
+        border-radius: 8px;
+    }
+    .history{
+        color: white;
+        text-align: center;
+        background-color: gray;
+        border-style: solid;
+        border-radius: 8px;
+        line-height: 30px;
     }
 
 }
