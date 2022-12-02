@@ -65,7 +65,7 @@
         
     }
 
-    .home-write{
+    .home-write,h1,h2,h3,h4{
         color: white;
         font-size: 15px;
         padding: 1px;
@@ -178,7 +178,7 @@
         
     }
 
-    .home-write{
+    .home-write,h1,h2,h3,h4{
         color: white;
         font-size: 20px;
         padding: 1px;
